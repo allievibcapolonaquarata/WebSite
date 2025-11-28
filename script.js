@@ -10,8 +10,8 @@ VANTA.NET({
   points: window.innerWidth < 768 ? 10 : 15,
   maxDistance: 20,
   spacing: window.innerWidth < 768 ? 22.5 : 15,
-  color: 0xdc0000,
-  backgroundColor: 0x002455
+  color: 0xBF092F,
+  backgroundColor: 0x132440
 });
 
 // Load standings data and build rows dynamically
@@ -53,4 +53,5 @@ document.addEventListener("DOMContentLoaded", function () {
     })
     .catch(error => console.error("Error fetching JSON:", error));
 });
+
 
